@@ -4,33 +4,36 @@ var buttonMultiply = document.getElementById("buttonMultiply");
 var buttonDevide = document.getElementById("buttonDevide");
 
 function onButtonPlusClick() {
-    console.log("onButtonPlusClick");
     var firstNumber = document.getElementById("first-number");
     var secondNumber = document.getElementById("second-number");
-
-    console.log(firstNumber.value);
-    console.log(secondNumber.value);
-    
     var one = Number (firstNumber.value);
     var two = Number (secondNumber.value);
-
-    console.log(one + two);
     window.alert(one + two);
 }
 
 function onButtonMinusClick() {
-    console.log("onButtonMinusClick");
+    var firstNumber = document.getElementById("first-number");
+    var secondNumber = document.getElementById("second-number");
+    var one = Number (firstNumber.value);
+    var two = Number (secondNumber.value);
+    window.alert(one - two);
 }
 
 function onButtonMultiplyClick() {
-    console.log("onButtonMultiplyClick");
+    var firstNumber = document.getElementById("first-number");
+    var secondNumber = document.getElementById("second-number");
+    var one = Number (firstNumber.value);
+    var two = Number (secondNumber.value);
+    window.alert(one * two);
 }
 
 function onButtonDevideClick() {
-    console.log("onButtonDevideClick");
+    var firstNumber = document.getElementById("first-number");
+    var secondNumber = document.getElementById("second-number");
+    var one = Number (firstNumber.value);
+    var two = Number (secondNumber.value);
+    window.alert(one / two);
 }
-
-
 
 // if (buttonPlus !== null) {
 //     buttonPlus.addEventListener("onclick",onButtonPlusClick);
